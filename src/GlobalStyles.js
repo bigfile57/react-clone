@@ -3,7 +3,7 @@ import reset from "styled-reset";
 
 const GlobalStyles = createGlobalStyle`
     ${reset}
-    a{
+    /* a{
         text-decoration: none;
         color: inherit;
     }
@@ -12,7 +12,7 @@ const GlobalStyles = createGlobalStyle`
     }
     ul,li{
         list-style : none;
-    }
+    } */
 `
 
 export default GlobalStyles;
